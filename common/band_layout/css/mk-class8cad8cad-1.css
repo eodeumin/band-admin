@@ -1,0 +1,231 @@
+/*
+2020-07-05
+
+이미지 정렬 작업 CSS 추가 
+
+*/
+.l-document-bodyFooter.mk-flex.mk-justify-spaceBetween
+    {
+        padding-top: 50px;width: 100%;
+    }
+
+.l-document-body p img:nth-child(odd)
+{ 
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+
+}
+
+.l-document-body p img:nth-child(even)
+{ 
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+
+}
+
+.l-document-body p img:last-child
+{ 
+
+    /*background: rgba(0,0,0,.6);*/
+
+}
+
+
+
+.mk-root .mk-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.mk-root .mk-justify-spaceBetween {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.mk-root .mk-justify-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.mk-root .mk-alignItems-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.mk-root .mk-hidden {
+    display: none
+}
+
+
+.mk-root .mk-btn {
+    margin: 0;
+    outline: 0;
+    color: #555;
+    border: 1px solid #bbb;
+    padding: 9px 14px;
+    line-height: 1;
+    border-radius: 3px;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mk-root .mk-btn--small {
+    padding: 4px 7px;
+    font-size: 11px;
+}
+
+.mk-root .mk-btn--clean {
+    border: 1px solid transparent !important;
+    background-color: transparent !important;
+    color: #bbb;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mk-root .mk-btn--clean:hover {
+    color: #555 !important;
+    background-color: #f7f7f7 !important
+}
+
+.mk-root .mk-btn--clean.mk-btn--primary {
+    color: #367BF5 !important
+}
+
+
+.mk-root .mk-btn--disabled {
+    border: 1px solid #eee !important;
+    background-color: #eee !important;
+    color: #bbb !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: not-allowed;
+}
+
+.mk-root .mk-btn--large {
+    padding: 15px 20px;
+    font-size: 14px;
+}
+
+.mk-root .mk-btn--bold {
+    font-weight: bold;
+}
+
+.mk-root .mk-btn:hover {
+    /* background: #eaeaea; */
+    color: #333;
+    border-color: #888;
+}
+
+.mk-root .mk-btn--primary {
+    color: #367BF5;
+    border: 1px solid #367BF5;
+}
+
+.mk-root .mk-btn--primary:hover {
+    color: #367BF5;
+    border: 1px solid #367BF5;
+}
+
+.mk-root .mk-btn--filled {
+    border: 1px solid #eee;
+    color: #fff;
+    background-color: #eee;
+}
+
+.mk-root .mk-btn--filled.mk-btn--primary {
+    color: #fff;
+    border: 1px solid #ea6294;
+    background-color: #ea6294;
+}
+
+.mk-root .mk-btn--filled.mk-btn--primary:hover {
+    border: 1px solid #e05d8d;
+    background-color: #e05d8d;
+}
+
+.mk-root .mk-btn--filled.mk-btn--primary:active {
+    border: 1px solid #d45785;
+    background-color: #d45785;
+}
+
+.mk-root .mk-margin-top {
+    margin-top: 4px !important;
+}
+
+.mk-root .mk-margin-top-x2 {
+    margin-top: 8px !important;
+}
+
+.mk-root .mk-margin-top-x4 {
+    margin-top: 16px !important;
+}
+
+.mk-root .mk-margin-top-x8 {
+    margin-top: 32px !important;
+}
+
+.mk-root .mk-margin-bottom {
+    margin-bottom: 4px !important;
+}
+
+.mk-root .mk-margin-bottom-x2 {
+    margin-bottom: 8px !important;
+}
+
+.mk-root .mk-margin-bottom-x4 {
+    margin-bottom: 16px !important;
+}
+
+.mk-root .mk-margin-bottom-x8 {
+    margin-bottom: 32px !important;
+}
+
+.mk-root .mk-margin-left {
+    margin-left: 4px !important;
+}
+
+.mk-root .mk-margin-left-x2 {
+    margin-left: 8px !important;
+}
+
+.mk-root .mk-margin-left-x4 {
+    margin-left: 16px !important;
+}
+
+.mk-root .mk-margin-left-x8 {
+    margin-left: 32px !important;
+}
+
+.mk-root .mk-margin-right {
+    margin-right: 4px !important;
+}
+
+.mk-root .mk-margin-right-x2 {
+    margin-right: 8px !important;
+}
+
+.mk-root .mk-margin-right-x4 {
+    margin-right: 16px !important;
+}
+
+.mk-root .mk-margin-right-x8 {
+    margin-right: 32px !important;
+}
+
+
+.mk-root .mk-bold {
+    font-weight: bold;
+}
