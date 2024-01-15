@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="No-Cache">
+    <title>카카오톡 문의하기</title>
+</head>
+<body>
+    <script>
+        var kakaotalkLink = "go-kakao.html"; // 카톡링크 변경 시 수정해주세요
+
+        if(kakaotalkLink.indexOf("qr.kakao.com") != -1) {
+            var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+            
+            if(!isMobile) {
+                alert("카카오톡 문의하기는 모바일에서만 가능합니다.\n모바일에서 접속 후 다시 시도해주세요");
+                history.back(-1);
+                self.close();
+            } else {
+                location.href = kakaotalkLink;
+            }
+        } else {
+            location.href = kakaotalkLink;
+        }
+    </script>
+</body>
+</html>
